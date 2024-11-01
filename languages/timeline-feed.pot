@@ -1,0 +1,466 @@
+# Copyright (C) 2024 ScriptsTown
+# This file is distributed under the same license as the Event Timeline Feed plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Event Timeline Feed 1.2.6\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/timeline-feed\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-10-22T22:38:12+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.8.1\n"
+"X-Domain: timeline-feed\n"
+
+#. Plugin Name of the plugin
+msgid "Event Timeline Feed"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://scriptstown.com/wordpress-plugins/timeline-feed/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Create and showcase event timelines on your WordPress website available in multiple layouts with clean, elegant, and responsive design."
+msgstr ""
+
+#. Author of the plugin
+msgid "ScriptsTown"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://scriptstown.com/"
+msgstr ""
+
+#: core/Classes/AdminActionLink.php:14
+msgid "Settings"
+msgstr ""
+
+#: core/Classes/AdminColumn.php:24
+#: includes/metaboxes/partials/event.php:27
+msgid "Title"
+msgstr ""
+
+#: core/Classes/AdminColumn.php:25
+msgid "Total Events"
+msgstr ""
+
+#: core/Classes/AdminColumn.php:26
+#: core/Classes/Metabox.php:38
+msgid "Timeline Shortcode"
+msgstr ""
+
+#: core/Classes/AdminColumn.php:27
+msgid "Display Timeline in Theme"
+msgstr ""
+
+#: core/Classes/AdminColumn.php:28
+msgid "Author"
+msgstr ""
+
+#: core/Classes/AdminColumn.php:29
+msgid "Date"
+msgstr ""
+
+#. translators: %s: Layout number
+#: core/Classes/BaseLayout.php:32
+msgid "Timeline Layout %s"
+msgstr ""
+
+#: core/Classes/Metabox.php:34
+#: includes/metaboxes/layout-selector.php:7
+msgid "Choose Layout for Timeline"
+msgstr ""
+
+#: core/Classes/Metabox.php:36
+#: includes/metaboxes/events.php:7
+msgid "Add Events to Timeline"
+msgstr ""
+
+#: core/Classes/Metabox.php:40
+msgid "General Settings"
+msgstr ""
+
+#: core/Classes/Metabox.php:42
+msgid "Layout Settings"
+msgstr ""
+
+#: core/Classes/Metabox.php:44
+msgid "Display Timeline in your Theme"
+msgstr ""
+
+#: core/Classes/PostType.php:23
+msgctxt "General Name"
+msgid "Timeline Feed"
+msgstr ""
+
+#: core/Classes/PostType.php:24
+msgctxt "Singular name"
+msgid "Timeline"
+msgstr ""
+
+#: core/Classes/PostType.php:25
+#: core/Classes/PostType.php:26
+msgid "Add New Timeline"
+msgstr ""
+
+#: core/Classes/PostType.php:27
+msgid "Edit Timeline"
+msgstr ""
+
+#: core/Classes/PostType.php:28
+msgid "New Timeline"
+msgstr ""
+
+#: core/Classes/PostType.php:29
+msgid "View Timeline"
+msgstr ""
+
+#: core/Classes/PostType.php:30
+msgid "View Timelines"
+msgstr ""
+
+#: core/Classes/PostType.php:31
+msgid "Search Timelines"
+msgstr ""
+
+#: core/Classes/PostType.php:32
+msgid "No timelines found"
+msgstr ""
+
+#: core/Classes/PostType.php:33
+msgid "No timelines found in Trash"
+msgstr ""
+
+#: core/Classes/PostType.php:34
+msgid "All Timelines"
+msgstr ""
+
+#: core/Classes/PostType.php:35
+msgctxt "Menu Name"
+msgid "Timeline Feed"
+msgstr ""
+
+#: core/Classes/PostType.php:36
+msgid "Timeline published."
+msgstr ""
+
+#: core/Classes/PostType.php:37
+msgid "Timeline published privately."
+msgstr ""
+
+#: core/Classes/PostType.php:38
+msgid "Timeline reverted to draft."
+msgstr ""
+
+#: core/Classes/PostType.php:39
+msgid "Timeline scheduled."
+msgstr ""
+
+#: core/Classes/PostType.php:40
+msgid "Timeline updated."
+msgstr ""
+
+#: core/Classes/PostType.php:67
+msgctxt "General Name"
+msgid "Timeline Event"
+msgstr ""
+
+#: core/Classes/PostType.php:68
+msgctxt "Singular name"
+msgid "Timeline Event"
+msgstr ""
+
+#: core/Classes/PostType.php:69
+#: core/Classes/PostType.php:70
+#: includes/metaboxes/events.php:14
+msgid "Add New Event"
+msgstr ""
+
+#: core/Classes/PostType.php:71
+msgid "Edit Event"
+msgstr ""
+
+#: core/Classes/PostType.php:72
+msgid "New Timeline Event"
+msgstr ""
+
+#: core/Classes/PostType.php:73
+msgid "View Timeline Event"
+msgstr ""
+
+#: core/Classes/PostType.php:74
+msgid "View Timeline Events"
+msgstr ""
+
+#: core/Classes/PostType.php:75
+msgid "Search Timeline Events"
+msgstr ""
+
+#: core/Classes/PostType.php:76
+msgid "No timeline events found"
+msgstr ""
+
+#: core/Classes/PostType.php:77
+msgid "No timeline events found in Trash"
+msgstr ""
+
+#: core/Classes/PostType.php:78
+msgid "All Events"
+msgstr ""
+
+#: core/Classes/PostType.php:79
+msgctxt "Menu Name"
+msgid "Timeline Event"
+msgstr ""
+
+#: core/Classes/PostType.php:80
+msgid "Timeline event published."
+msgstr ""
+
+#: core/Classes/PostType.php:81
+msgid "Timeline event published privately."
+msgstr ""
+
+#: core/Classes/PostType.php:82
+msgid "Timeline event reverted to draft."
+msgstr ""
+
+#: core/Classes/PostType.php:83
+msgid "Timeline event scheduled."
+msgstr ""
+
+#: core/Classes/PostType.php:84
+msgid "Timeline event updated."
+msgstr ""
+
+#: core/Classes/Setting.php:95
+msgid "Normal"
+msgstr ""
+
+#: core/Classes/Setting.php:96
+msgid "Bold"
+msgstr ""
+
+#: core/Classes/Setting.php:97
+msgid "400"
+msgstr ""
+
+#: core/Classes/Setting.php:98
+msgid "500"
+msgstr ""
+
+#: core/Classes/Setting.php:99
+msgid "600"
+msgstr ""
+
+#: core/Classes/Setting.php:100
+msgid "700"
+msgstr ""
+
+#: includes/layouts/layout1/settings.php:5
+#: includes/layouts/layout3/settings.php:5
+#: includes/layouts/layout4/settings.php:5
+msgid "Timeline Background Color"
+msgstr ""
+
+#: includes/layouts/layout1/settings.php:10
+msgid "Timeline Color 1"
+msgstr ""
+
+#: includes/layouts/layout1/settings.php:15
+msgid "Timeline Color 2"
+msgstr ""
+
+#: includes/layouts/layout1/settings.php:20
+msgid "Timeline Color 3"
+msgstr ""
+
+#: includes/layouts/layout1/settings.php:25
+msgid "Timeline Color 4"
+msgstr ""
+
+#: includes/layouts/layout2/settings.php:5
+msgid "Main Background Color"
+msgstr ""
+
+#: includes/layouts/layout2/settings.php:10
+msgid "Side Background Color"
+msgstr ""
+
+#: includes/layouts/layout2/settings.php:15
+msgid "Timeline Border Color"
+msgstr ""
+
+#: includes/layouts/layout2/settings.php:20
+msgid "Title Font Color"
+msgstr ""
+
+#: includes/layouts/layout2/settings.php:25
+msgid "Description Font Color"
+msgstr ""
+
+#: includes/layouts/layout2/settings.php:30
+msgid "Dashed Border Color"
+msgstr ""
+
+#: includes/layouts/layout2/settings.php:35
+msgid "Date Font Color"
+msgstr ""
+
+#: includes/layouts/layout2/settings.php:40
+msgid "Main Border Radius (Default: 8)"
+msgstr ""
+
+#: includes/layouts/layout2/settings.php:47
+msgid "Timeline Padding (Default: 0)"
+msgstr ""
+
+#: includes/layouts/layout3/settings.php:12
+#: includes/layouts/layout4/settings.php:12
+msgid "Color 1 Gradient 1"
+msgstr ""
+
+#: includes/layouts/layout3/settings.php:17
+#: includes/layouts/layout4/settings.php:17
+msgid "Color 1 Gradient 2"
+msgstr ""
+
+#: includes/layouts/layout3/settings.php:24
+#: includes/layouts/layout4/settings.php:24
+msgid "Color 2 Gradient 1"
+msgstr ""
+
+#: includes/layouts/layout3/settings.php:29
+#: includes/layouts/layout4/settings.php:29
+msgid "Color 2 Gradient 2"
+msgstr ""
+
+#: includes/layouts/layout3/settings.php:36
+#: includes/layouts/layout4/settings.php:36
+msgid "Color 3 Gradient 1"
+msgstr ""
+
+#: includes/layouts/layout3/settings.php:41
+#: includes/layouts/layout4/settings.php:41
+msgid "Color 3 Gradient 2"
+msgstr ""
+
+#: includes/layouts/layout3/settings.php:48
+#: includes/layouts/layout4/settings.php:48
+msgid "Color 4 Gradient 1"
+msgstr ""
+
+#: includes/layouts/layout3/settings.php:53
+#: includes/layouts/layout4/settings.php:53
+msgid "Color 4 Gradient 2"
+msgstr ""
+
+#: includes/metaboxes/copy-shortcode.php:5
+msgid "Copy below shortcode in any page or post to publish the timeline."
+msgstr ""
+
+#: includes/metaboxes/copy-shortcode.php:9
+#: includes/metaboxes/do-shortcode.php:9
+msgid "Copied to clipboard."
+msgstr ""
+
+#: includes/metaboxes/copy-shortcode.php:10
+#: includes/metaboxes/do-shortcode.php:10
+msgid "Copy"
+msgstr ""
+
+#: includes/metaboxes/do-shortcode.php:5
+msgid "Use below code in your theme to display the timeline."
+msgstr ""
+
+#: includes/metaboxes/events.php:36
+msgid "Are you sure to remove all events from timeline?"
+msgstr ""
+
+#: includes/metaboxes/events.php:37
+msgid "Delete all Events"
+msgstr ""
+
+#: includes/metaboxes/events.php:49
+#: includes/metaboxes/events.php:53
+msgid "Like this plugin? Leave a Review."
+msgstr ""
+
+#: includes/metaboxes/general-settings.php:9
+#: includes/metaboxes/general-settings.php:11
+msgid "Open Link in a New Tab"
+msgstr ""
+
+#: includes/metaboxes/general-settings.php:15
+msgid "Title Underline"
+msgstr ""
+
+#: includes/metaboxes/general-settings.php:17
+#: includes/metaboxes/general-settings.php:21
+#: includes/metaboxes/general-settings.php:23
+msgid "Title Letter Spacing"
+msgstr ""
+
+#: includes/metaboxes/general-settings.php:27
+#: includes/metaboxes/general-settings.php:29
+msgid "Description Letter Spacing"
+msgstr ""
+
+#: includes/metaboxes/general-settings.php:33
+msgid "Title Font Weight"
+msgstr ""
+
+#: includes/metaboxes/general-settings.php:46
+msgid "Description Font Weight"
+msgstr ""
+
+#: includes/metaboxes/general-settings.php:59
+msgid "Description Line Height (Default: 1.4)"
+msgstr ""
+
+#: includes/metaboxes/partials/event.php:28
+msgid "Enter event title"
+msgstr ""
+
+#: includes/metaboxes/partials/event.php:32
+msgid "Description"
+msgstr ""
+
+#: includes/metaboxes/partials/event.php:33
+msgid "Enter event description"
+msgstr ""
+
+#: includes/metaboxes/partials/event.php:37
+msgid "Link"
+msgstr ""
+
+#: includes/metaboxes/partials/event.php:38
+msgid "Enter event url"
+msgstr ""
+
+#: includes/metaboxes/partials/event.php:42
+msgid "Icon Class"
+msgstr ""
+
+#: includes/metaboxes/partials/event.php:43
+msgid "Enter event icon"
+msgstr ""
+
+#: includes/metaboxes/partials/event.php:45
+msgid "Search more icons"
+msgstr ""
+
+#: includes/metaboxes/partials/event.php:50
+msgid "Date / Time"
+msgstr ""
+
+#: includes/metaboxes/partials/event.php:51
+msgid "Enter event date or time"
+msgstr ""
+
+#: includes/metaboxes/partials/event.php:54
+msgid "Remove Event"
+msgstr ""
